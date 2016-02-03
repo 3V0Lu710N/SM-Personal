@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+"$basetexture" "hellsgamers/hg_logo_skay"
+"$translucent 1"
+"$surfaceprop" "MetalPanel"
+"$surfaceprop2" "MetalPanel"
+}
