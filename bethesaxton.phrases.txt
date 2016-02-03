@@ -1,0 +1,37 @@
+"Phrases"
+{
+	"saxton_enabled"
+	{
+		"en"	"You are now Saxton Hale!"
+	}
+	"saxton_disabled"
+	{
+		"en"	"You are no longer Saxton Hale!"
+	}
+	"rage_status"
+	{
+		"#format" "{1:i}"
+		"en"	"Rage: {1}"
+	}
+	"rage_full"
+	{
+		"en"	"Taunt to activate rage!"
+	}
+	"jump_status"
+	{
+		"#format" "{1:i}"
+		"en"	"Jump charge: {1} percent. Look up and stand up to use super-jump."
+	}
+	"jump_status_2"
+	{
+		"en"	"Super Jump will be ready again in:"
+	}
+	"max_hales_red"
+	{
+		"en"	"There are already the max amount of hales on RED."
+	}
+	"max_hales_blue"
+	{
+		"en"	"There are already the max amount of hales on BLU."
+	}
+}
