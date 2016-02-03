@@ -1,4 +1,4 @@
-# Contact
+# Contact Me
 
 - [Steam Profile](http://steamcommunity.com/id/hgevo/)
 - [HeLLsGamers Profile](http://hellsgamers.com/user/5094-3v0lu710n/)
