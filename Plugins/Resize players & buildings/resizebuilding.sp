@@ -51,13 +51,13 @@ public OnPluginStart()
 	
 //	HookConVarChange(g_hCvarBuildingSizeMin = CreateConVar("sm_building_minsize", "0.6", "Min size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0), OnConVarChange);
 	
-	g_hCvarBuildingSizeMin = CreateConVar("sm_building_minsize", "0.6", "Min size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0);
+	g_hCvarBuildingSizeMin = CreateConVar("sm_building_minsize", "0.1", "Min size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0);
 	g_flCvarBuildingSizeMin = GetConVarFloat(g_hCvarBuildingSizeMin);
 	HookConVarChange(g_hCvarBuildingSizeMin, OnConVarChange);
 	
 //	HookConVarChange(g_hCvarBuildingSizeMax = CreateConVar("sm_building_maxsize", "2.0", "Max size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0), OnConVarChange);
 
-	g_hCvarBuildingSizeMax = CreateConVar("sm_building_maxsize", "2.0", "Max size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0);
+	g_hCvarBuildingSizeMax = CreateConVar("sm_building_maxsize", "3.0", "Max size the building can randomly be scaled to", FCVAR_PLUGIN, true, 0.0);
 	g_flCvarBuildingSizeMax = GetConVarFloat(g_hCvarBuildingSizeMax);
 	HookConVarChange(g_hCvarBuildingSizeMax, OnConVarChange);
 	
