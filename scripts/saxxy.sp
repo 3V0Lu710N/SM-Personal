@@ -26,7 +26,7 @@ public Action:Command_Saxxy(client, args)
 		
 		CPrintToChatAll("{gold}[SA] {orangered}%s Received a Saxxy Award!", name)
 		
-		// PrintToChat(client, "[SM] Usage: sm_saxxy <name>")
+		// ReplyToCommand(client, "[SM] Usage: sm_saxxy <name>");
 		return Plugin_Handled;
 	}
 
