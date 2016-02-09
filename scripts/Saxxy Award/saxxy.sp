@@ -15,7 +15,17 @@ public OnPluginStart()
 }
 
 public Action:Command_Saxxy(client, args)
-{
+{	
+	char identity[MAX_NAME_LENGTH]
+	char steamid[32];
+	GetClientName(client, identity, sizeof(identity);
+	GetClientAuthId(client, AuthId_Steam2, steamid, sizeof(steamid));
+	if(!IsAuthed(steamid))
+    {
+        PrintToChatAll("%s (%s) Tried to use an unauthorized command.", identity, steamid);
+        return Plugin_Handled;
+    }
+	
 	if (args < 1)
 	{
 		GetClientUserId(client);
@@ -49,3 +59,11 @@ public Action:Command_Saxxy(client, args)
 	
 	return Plugin_Handled;
 }
+
+bool IsValidID(char steamid [32])
+	{
+		if(StrContains(steamid, "1:30842083") == -1
+			return false
+		else
+			return true
+	}
